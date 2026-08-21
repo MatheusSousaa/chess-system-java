@@ -6,8 +6,6 @@ import boardGame.Position;
 import chess.pieces.King;
 import chess.pieces.Rook;
 
-import java.util.InputMismatchException;
-
 public class ChessMatch {
 
     private Board board;
@@ -27,7 +25,7 @@ public class ChessMatch {
         return mat;
     }
 
-    public ChessPiece performMove(ChessPosition sourcePosition, ChessPosition targetPosition) {
+    public ChessPiece performChessMove(ChessPosition sourcePosition, ChessPosition targetPosition) {
         Position source = sourcePosition.toPosition();
         Position target = targetPosition.toPosition();
         validateSourcePosition(source);
@@ -47,6 +45,12 @@ public class ChessMatch {
         Piece capturePiece = board.removePiece(target);
         board.placePiece(p, target);
         return capturePiece;
+    }
+
+    public boolean[][] possibleMoves(ChessPosition sourcePosition) {
+        Position position = sourcePosition.toPosition();
+        validateSourcePosition(position);
+        return board.piece(position).possibleMoves();
     }
 
     private void validateSourcePosition(Position position) {
