@@ -66,3 +66,5 @@ O código-fonte principal está organizado nos seguintes pacotes:
 👨‍💻 Autor
 
 Feito por Matheus Sousa. Sinta-se à vontade para entrar em contato ou contribuir com melhorias!
+
+<img width="251" height="458" alt="{650C803D-8A47-41EE-8EF0-1446A923CD21}" src="https://github.com/user-attachments/assets/6504e44b-672b-481a-a712-a613ed1dc2de" />
