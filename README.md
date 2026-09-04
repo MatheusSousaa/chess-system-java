@@ -31,7 +31,7 @@ O sistema implementa as regras fundamentais do xadrez tradicional, permitindo qu
 ## 🛠️ Tecnologias Utilizadas
 
 * **Java** (JDK 17 ou superior recomendado)
-* **IDE:** IntelliJ IDEA / Eclipse / VS Code
+* **IDE:** IntelliJ IDEA
 * **Conceitos Aplicados:** Programação Orientada a Objetos (POO), Camadas, Exceções Personalizadas.
 
 ---
@@ -39,6 +39,7 @@ O sistema implementa as regras fundamentais do xadrez tradicional, permitindo qu
 ## 📂 Estrutura do Projeto
 
 O código-fonte principal está organizado nos seguintes pacotes:
+
 * `boardgame`: Lógica genérica do tabuleiro e peças.
 * `chess`: Regras específicas do xadrez (partida, peças e movimentos).
 * `application`: Classe principal (`Program.java`) responsável pela interação com o usuário via console.
@@ -47,24 +48,19 @@ O código-fonte principal está organizado nos seguintes pacotes:
 
 ## 📥 Como Executar o Projeto
 
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/seu-usuario/seu-repositorio-xadrez.git](https://github.com/seu-usuario/seu-repositorio-xadrez.git)
+1. Clone o repositório:
+```bash
+   git clone https://github.com/MatheusSousaa/chess-system-java.git
+```
+2. Abra o projeto na sua IDE de preferência (IntelliJ IDEA, Eclipse, etc.).
+3. Localize a classe principal de execução (`Program.java`, dentro do pacote `application`).
+4. Execute o projeto como uma aplicação Java padrão (Run).
+5. **Como jogar:** o jogo solicitará a origem e o destino da peça utilizando coordenadas de xadrez (ex: origem `c2` e destino `c4`). O terminal atualizará o tabuleiro a cada turno bem-sucedido.
 
-2.   Abra o projeto na sua IDE de preferência (IntelliJ IDEA, Eclipse, etc.).
+---
 
-3.    Localize a classe principal de execução (geralmente Program.java dentro do pacote application).
+## 👨‍💻 Autor
 
-4.    Execute o projeto como uma aplicação Java padrão (Run).
-
-5.    Como jogar:
-
-        O jogo solicitará a origem e o destino da peça utilizando coordenadas de xadrez (Ex: origem c2 e destino c4).
-
-        O terminal atualizará o tabuleiro a cada turno bem-sucedido.
-
-👨‍💻 Autor
-
-Feito por Matheus Sousa. Sinta-se à vontade para entrar em contato ou contribuir com melhorias!
+Feito por [Matheus Sousa](https://github.com/MatheusSousaa). Sinta-se à vontade para entrar em contato ou contribuir com melhorias!
 
 <img width="251" height="458" alt="{650C803D-8A47-41EE-8EF0-1446A923CD21}" src="https://github.com/user-attachments/assets/6504e44b-672b-481a-a712-a613ed1dc2de" />
